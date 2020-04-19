@@ -5,11 +5,13 @@ body {
 }
 
 a {
-    color: #000;
+    color: #003265;
+    ;
 }
 
 h2 {
     font-size: 35px;
+    color: #4E7094;
 }
 
 
@@ -262,6 +264,15 @@ a.slider-link {
 }
 
 
+/* 48em = 768px */
+
+@media (max-width: 48em) {
+    .content-line {
+        flex-direction: column;
+    }
+}
+
+
 /* 
 /* ### BLOG ###
 */
@@ -274,6 +285,20 @@ a.slider-link {
 
 .blog a {
     text-decoration: none;
+}
+
+.blog h3 {
+    color: #003265;
+    line-height: 30px;
+}
+
+.blog p {
+    line-height: 20px;
+}
+
+.blog-post {
+    padding: 20px;
+    background: #fffa;
 }
 
 .blog-img {
@@ -291,8 +316,8 @@ a.slider-link {
 }
 
 .blog-cat p {
-    background: green;
-    padding: 10px;
+    background: #009C75;
+    padding: 5px 10px;
     border-radius: 10px;
     color: #fff;
     font-weight: 500;
