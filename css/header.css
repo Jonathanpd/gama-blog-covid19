@@ -11,6 +11,15 @@
     justify-content: center;
 }
 
+
+/* 48em = 768px */
+
+@media (max-width: 48em) {
+    .header {
+        display: inherit;
+    }
+}
+
 .header-wrap {
     max-width: 1600px;
     background-color: #fff;

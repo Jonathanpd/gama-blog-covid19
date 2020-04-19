@@ -1,3 +1,29 @@
 .sobre {
-    min-height: 2000px;
+    padding-top: 150px;
+    justify-content: flex-start;
+    padding-bottom: 500px;
 }
+
+.sobre h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #0006;
+    text-transform: uppercase;
+}
+
+.sobre-wrap {
+    flex-direction: column;
+}
+
+.sobre-line {
+    display: grid !important;
+    max-width: 1600px !important;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-gap: 40px;
+    justify-content: center;
+}
+
+.sobre-column--texto {}
+
+.sobre-column--img {}

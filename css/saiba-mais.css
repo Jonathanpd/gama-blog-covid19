@@ -1,3 +1,8 @@
 .saiba-mais {
+    padding-top: 200px;
     min-height: 2000px;
+}
+
+.saiba-mais-line {
+    flex-direction: column;
 }
