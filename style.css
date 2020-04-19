@@ -3,6 +3,8 @@
 @import url("css/blog.css");
 @import url("css/contato.css");
 @import url("css/footer.css");
+@import url("css/sobre.css");
+@import url("css/saiba-mais.css");
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
