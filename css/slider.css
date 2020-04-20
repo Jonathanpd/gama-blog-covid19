@@ -30,3 +30,12 @@ a.slider-link {
     display: flex;
     justify-content: center;
 }
+
+
+/* 48em = 768px */
+
+@media (max-width: 48em) {
+    section.slider {
+        padding-top: 100px;
+    }
+}

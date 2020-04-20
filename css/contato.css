@@ -29,6 +29,8 @@
 
 .contato-column img {
     object-fit: cover;
+    width: auto;
+    max-width: 100%;
 }
 
 .contato-column--img {
@@ -39,6 +41,7 @@
 
 .contato-column--form {
     padding: 20px;
+    max-width: 90%;
 }
 
 .contato-column--form form {

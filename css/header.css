@@ -142,6 +142,7 @@
     top: 100px;
     position: absolute;
     right: 0;
+    width: 60%;
 }
 
 .header .header-menu-btn:checked~.header-menu-icon .navicon {

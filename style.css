@@ -82,8 +82,15 @@ img {
     h2 {
         padding: 0 20px;
     }
+    .content-column--one {
+        max-width: 100%;
+        /*padding: 20px;*/
+    }
     .content-column--two {
         max-width: 100%;
         margin: 40px 0px;
+    }
+    .content-column--two {
+        padding-left: 0px;
     }
 }
